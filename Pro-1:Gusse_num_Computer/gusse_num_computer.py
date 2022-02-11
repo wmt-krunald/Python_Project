@@ -15,6 +15,7 @@ def gusse_num(n):
             print("\nSorry, Gusse again. It's too low.")
 
     print("\nHurreeyy, You are a winner!\n")
+    print(f"You have correctly Gusse the number {gusse}.\n")
 
 gusse_num(502)        
     
