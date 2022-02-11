@@ -3,7 +3,7 @@ import random #This is random function
 
 def gusse_num(n):
 
-    random_number = random.randint(1, n) #Generate the random number
+    random_number = random.randint(1, n) #Generate the random number between 1 to n
     gusse = 0
 
     while gusse != random_number:
