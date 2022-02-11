@@ -22,4 +22,4 @@ def gusse_num(n):
     print(f"\nYou have succesfully guss the number {gusse}.")
     print("You are a Winner!!!!!!!\n")
 
-gusse_num(5)
+gusse_num(500)
