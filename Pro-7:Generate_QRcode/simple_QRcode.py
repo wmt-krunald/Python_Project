@@ -1,5 +1,6 @@
 import qrcode
 
+
 data = "Don't Forget to Subscribe"
 
 img = qrcode.make(data)
