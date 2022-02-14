@@ -15,7 +15,7 @@ def hangman():
     word_letters = set(word)  #Trake of what letters are in word
     alphabet = set(string.ascii_uppercase)
     used_letters = set()  #Trake or set of what used letters what user has gussed
-    
+
     lives = 7
 
     #Getting User Input:
@@ -49,4 +49,5 @@ def hangman():
     else:
         print(f"\nYeyyy, You Crack the Game. The word is: {word}\n")
 
+    print("The Original Word is : ", word + "\n")
 hangman()
