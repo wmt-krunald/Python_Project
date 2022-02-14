@@ -1,8 +1,15 @@
-from pyzbar.pyzbar import decode
-from PIL import Image
+import cv2
 
-img = Image.open("/home/webmob/Krunal_Work_space/Python/Python_Project/Pro-7:Generate_QRcode/1.png")
+detector = cv2.QRCodeDetector()
 
-result = decode(img)
+revel,point,s_qr = detector.detectAndDecode(cv2.imread("/home/webmob/Krunal_Work_space/Python/Python_Project/Pro-7:Generate_QRcode/2.png"))
+print("\n", revel)
 
-print(result)
+print("\nPoints: ")
+print("\n", point)
+
+# img = Image.open("/home/webmob/Krunal_Work_space/Python/Python_Project/Pro-7:Generate_QRcode/1.png")
+
+# result = decode(img)
+
+# print(result)
