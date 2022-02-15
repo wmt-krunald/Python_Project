@@ -70,7 +70,7 @@ class GeniusComputerPlayer(Player):
                     "score": 1 * (ss.num_empty_square() + 1) if other_player == max_player else -1 * (
                             ss.num_empty_square() + 1)
                     }
-        elif ss.empty_square():  # No empty square
+        elif not ss.empty_square():  # No empty square
             return {"position": None,  "score": 0}
         
         if player == max_player:
