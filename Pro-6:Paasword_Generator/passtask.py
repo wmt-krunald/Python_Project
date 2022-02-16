@@ -1,6 +1,5 @@
 from email.policy import default
 import random
-from xml.dom.pulldom import ErrorHandler
 
 num_pass = int(input("\nEnter the Number of Password you want: "))
 length = int(input("\nEnter the Length of your Password: "))
