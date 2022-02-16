@@ -52,7 +52,7 @@ else:
             print("\n",passwords)
 
     elif choice_count == 3:
-        print("\nYou are an option that you need specific format fonts only.")
+        print("\nYou are SELECT an option that you need specific format fonts only.")
         print("\nPlease, Provide Your Choices..")
         choice1 = int(input("\nEnter Your Choice 1: "))
         choice2 = int(input("\nEnter Your Choice 2: "))
@@ -95,7 +95,7 @@ else:
             print(out1 + out2 + out3)
 
     elif choice_count == 2:
-        print("\nYou are an option that you need specific format fonts only.")
+        print("\nYou are SELECT an option that you need specific format fonts only.")
         print("\nPlease, Provide Your Choices..")
         choice1 = int(input("\nEnter Your Choice 1: "))
         choice2 = int(input("\nEnter Your Choice 2: "))
